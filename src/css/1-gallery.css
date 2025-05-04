@@ -9,8 +9,9 @@
 }
 
 .gallery-item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
   height: 200px;
+  border-radius: 8px;
 }
 
 .gallery-image {
